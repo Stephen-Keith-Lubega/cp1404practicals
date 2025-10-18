@@ -25,6 +25,7 @@ def main():
         print(f"{name} ({email})")
 
 
+
 def extract_name_from_email(email):
     """Pull out name from ones email"""
     username = email.split('@')[0]

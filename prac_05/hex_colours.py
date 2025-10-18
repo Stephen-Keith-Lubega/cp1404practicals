@@ -2,6 +2,7 @@
 CP1404/CP5632 - Practical_05
 hex_colours
 """
+
 NAME_TO_CODE = {
     "absolute zero": "#0048ba",
     "acid green": "#b0bf1a",

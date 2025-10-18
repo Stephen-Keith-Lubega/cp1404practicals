@@ -4,6 +4,7 @@ Estimate: 25 minutes
 Actual:   35 minutes
 """
 
+
 text = input("Text: ")
 word_counts = {}
 
