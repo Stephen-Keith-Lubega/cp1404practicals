@@ -14,5 +14,10 @@ for word in words:
     else:
         word_counts[word] = 1
 
+max_length = 0
+for word in word_counts:
+    if len(word) > max_length:
+        max_length = len(word)
+
 for word in sorted(word_counts):
-    print(f"{word} : {word_counts[word]}")
+    print(f"{word:{max_length}} : {word_counts[word]}")
