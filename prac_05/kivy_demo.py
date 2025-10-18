@@ -1,3 +1,8 @@
+"""
+kivy_demo
+Estimate: 10 minutes
+Actual: 20 minutes
+"""
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.properties import StringProperty
