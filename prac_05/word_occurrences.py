@@ -1,7 +1,7 @@
 """
 Word Occurrences
 Estimate: 25 minutes
-Actual:    minutes
+Actual:   35 minutes
 """
 
 text = input("Text: ")
@@ -14,5 +14,5 @@ for word in words:
     else:
         word_counts[word] = 1
 
-for word, count in word_counts.items():
-    print(f"{word} : {count}")
+for word in sorted(word_counts):
+    print(f"{word} : {word_counts[word]}")
