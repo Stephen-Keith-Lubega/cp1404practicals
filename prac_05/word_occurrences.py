@@ -1,0 +1,24 @@
+"""
+Word Occurrences
+Estimate: 25 minutes
+Actual:   35 minutes
+"""
+
+
+text = input("Text: ")
+word_counts = {}
+
+words = text.split()
+for word in words:
+    if word in word_counts:
+        word_counts[word] += 1
+    else:
+        word_counts[word] = 1
+
+max_length = 0
+for word in word_counts:
+    if len(word) > max_length:
+        max_length = len(word)
+
+for word in sorted(word_counts):
+    print(f"{word:{max_length}} : {word_counts[word]}")
