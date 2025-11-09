@@ -1,7 +1,7 @@
 """
 Test program for Guitar class.
 Estimated time: 10 minutes
-Actual time:
+Actual time: 20 minutes
 """
 
 from prac_06.guitar import Guitar
@@ -19,8 +19,8 @@ def main():
     print(f"{guitar2.name} get_age() - Expected 9. Got {guitar2.get_age()}")
 
     # Test is_vintage()
-    print(f"{guitar1.name} is_vintage() - Expected True. Got {guitar1.determine_weather_vintage()}")
-    print(f"{guitar2.name} is_vintage() - Expected False. Got {guitar2.determine_weather_vintage()}")
+    print(f"{guitar1.name} is_vintage() - Expected True. Got {guitar1.is_vintage()}")
+    print(f"{guitar2.name} is_vintage() - Expected False. Got {guitar2.is_vintage()}")
 
 
 main()

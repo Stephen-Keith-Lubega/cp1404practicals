@@ -1,7 +1,7 @@
 """
 Guitar class for storing guitar details.
 Estimated time: 30 minutes
-Actual time:
+Actual time:60 minutes
 """
 
 class Guitar:
@@ -27,6 +27,6 @@ class Guitar:
         return current_year - self.year
 
 
-    def determine_weather_vintage(self):
-        """Determine weather vintage or not """
+    def is_vintage(self):
+        """Determine whether vintage or not """
         return self.get_age() >= 50
